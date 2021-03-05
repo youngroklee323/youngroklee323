@@ -1,4 +1,4 @@
-### Hi there 👋
+### UI/UX Designer Industrial Designer - Youngrok Lee
 
 <!--
 **youngroklee323/youngroklee323** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
