@@ -1,3 +1,29 @@
-ul {
-    display: flex;
+/* GNB */
+.GNB {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.GNB .logo {
+  height: 50px;
+}
+.GNB ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.GNB li {
+}
+.GNB ul a {
+  text-decoration: none;
+  display: block;
+  padding: 30px 24px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
 }
