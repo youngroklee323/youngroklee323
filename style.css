@@ -1,5 +1,11 @@
 /* GNB */
 .GNB {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.GNB .gnbWrap {
   display: flex;
   gap: 20px;
   align-items: center;
