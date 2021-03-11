@@ -33,3 +33,13 @@
   line-height: 21px;
   color: #000;
 }
+
+/* Section1: Hero */
+.section1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.section1 .logoWrap svg {
+  width: 380px;
+}
