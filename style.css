@@ -1,3 +1,11 @@
+/* Bootstrap */
+/* 화면이 1600px이상일때 내부 컨테이너의 최대 넓이 값은 1550px */
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1550px;
+  }
+}
+
 /* GNB */
 .GNB {
   position: fixed;
