@@ -1,29 +1,43 @@
-/* GNB */
-.GNB {
-  display: flex;
-  gap: 20px;
+.GNB {}
+
+.GNB .row {
   align-items: center;
+  height: 119px;
 }
+
+.GNB .logocontainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+
 .GNB .logo {
-  height: 50px;
+  height: 59px;
 }
+
 .GNB ul {
   display: flex;
-  list-style: none;
-  padding: 0;
+  gap: 84px;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.GNB li {
-}
-.GNB ul a {
-  text-decoration: none;
-  display: block;
-  padding: 30px 24px;
 
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
+.GNB a {
+  text-decoration: none;
   color: #000;
+}
+
+.GNB li {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.GNB .contents {
+  margin-left: 20px;
+}
+
+.GNB .colcontents {
+  display: flex;
+  align-items: center;
 }
