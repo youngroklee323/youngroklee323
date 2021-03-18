@@ -1,5 +1,11 @@
 /* GNB */
 .GNB {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.GNB .gnbWrap {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -13,8 +19,8 @@
   padding: 0;
   margin: 0;
 }
-.GNB li {
-}
+/* .GNB li {
+} */
 .GNB ul a {
   text-decoration: none;
   display: block;
@@ -26,4 +32,39 @@
   font-size: 18px;
   line-height: 21px;
   color: #000;
+}
+
+/* Section1: Hero */
+/* 
+  font use case
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif; 
+*/
+.section1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.section1 .logoWrap svg {
+  width: 380px;
+}
+.section1 .rootWrap {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+  flex-wrap: wrap;
+}
+.section1 .title {
+  font-family: "Roboto", sans-serif;
+}
+.section1 .mainTitle {
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 1;
+  margin-bottom: 14px;
+}
+.section1 .subTitle {
+  font-weight: 200;
+  line-height: 1;
+  font-size: 48px;
 }
