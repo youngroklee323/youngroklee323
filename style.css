@@ -34,6 +34,13 @@
   color: #000;
 }
 
+/* 공통 섹션 스타일 */
+.section {
+  min-height: 100vh;
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+}
 /* Section1: Hero */
 /* 
   font use case
@@ -41,7 +48,6 @@
   font-family: 'Roboto', sans-serif; 
 */
 .section1 {
-  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -53,9 +59,6 @@
   align-items: center;
   gap: 85px;
   flex-wrap: wrap;
-}
-.section1 .title {
-  font-family: "Roboto", sans-serif;
 }
 .section1 .mainTitle {
   font-weight: 200;
