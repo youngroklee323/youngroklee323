@@ -1,43 +1,103 @@
-.GNB {}
-
-.GNB .row {
-  align-items: center;
-  height: 119px;
+/* Bootstrap */
+/* 화면이 1600px이상일때 내부 컨테이너의 최대 넓이 값은 1550px */
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1550px;
+  }
 }
 
-.GNB .logocontainer {
+/* GNB */
+.GNB {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.GNB .gnbWrap {
   display: flex;
-  justify-content: flex-end;
-  padding: 0 15px;
+  gap: 20px;
+  align-items: center;
 }
 
 .GNB .logo {
-  height: 59px;
+  height: 50px;
 }
 
 .GNB ul {
   display: flex;
-  gap: 84px;
-  margin: 0;
-  padding: 0;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.GNB a {
+/* .GNB li {
+} */
+.GNB ul a {
   text-decoration: none;
+  display: block;
+  padding: 30px 24px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
   color: #000;
 }
 
-.GNB li {
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+.section {
+  min-height: 100vh;
 }
 
-.GNB .contents {
-  margin-left: 20px;
+.title {
+  font-family: "Monteserrat", sans-serif;
 }
 
-.GNB .colcontents {
+/* Section1: Hero */
+/*
+  font use case
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
+*/
+.section1 {
   display: flex;
   align-items: center;
+}
+
+.section1 .logoWrap svg {
+  width: 380px;
+}
+
+.section1 .rootWrap {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+  flex-wrap: wrap;
+}
+
+.section1 .mainTitle {
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 1;
+  margin-bottom: 14px;
+}
+
+.section1 .subTitle {
+  font-weight: 200;
+  line-height: 1;
+  font-size: 48px;
+}
+
+/* section 2 */
+.section2 {
+  display: flex;
+  align-items: center;
+}
+
+.section2 .title {
+  font-weight: 300;
+  font-size: 120px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
 }
