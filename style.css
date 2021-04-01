@@ -1,3 +1,11 @@
+/* Bootstrap */
+/* 화면이 1600px이상일때 내부 컨테이너의 최대 넓이 값은 1550px */
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1550px;
+  }
+}
+
 /* GNB */
 .GNB {
   position: fixed;
@@ -34,6 +42,13 @@
   color: #000;
 }
 
+/* 공통 섹션 스타일 */
+.section {
+  min-height: 100vh;
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+}
 /* Section1: Hero */
 /* 
   font use case
@@ -41,7 +56,6 @@
   font-family: 'Roboto', sans-serif; 
 */
 .section1 {
-  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -54,9 +68,6 @@
   gap: 85px;
   flex-wrap: wrap;
 }
-.section1 .title {
-  font-family: "Roboto", sans-serif;
-}
 .section1 .mainTitle {
   font-weight: 200;
   font-size: 100px;
@@ -67,4 +78,17 @@
   font-weight: 200;
   line-height: 1;
   font-size: 48px;
+}
+
+/* Section2 */
+.section2 {
+  display: flex;
+  align-items: center;
+}
+
+.section2 .title {
+  font-weight: 300;
+  font-size: 120px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000000;
 }
