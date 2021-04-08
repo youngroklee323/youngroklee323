@@ -94,9 +94,15 @@
   position: relative;
   overflow: hidden;
 }
+
+.section2 #catController {
+  cursor: pointer;
+}
+
 .section2 .title span {
   position: relative;
   z-index: 2;
+  text-transform: uppercase;
 }
 .section2 .title:after {
   content: "";
