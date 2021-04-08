@@ -126,10 +126,41 @@
 /* Section3 */
 .section3 .container {
   padding-top: 10px;
-  border-top: 1px solid #000000;
 }
 
 .section3 h1 {
-  padding-top: calc(33px - 10px);
+  padding-top: 4px;
   margin-bottom: 22px;
+}
+
+.section3 .container {
+  position: relative;
+}
+
+.section3 .tabContainer {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: position 0.3s;
+}
+
+.section3 .tabContainer.active {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+}
+
+.projectRow {
+  border-top: 1px solid #000000;
+  margin-bottom: 330px;
+}
+/* column */
+.projectRow > div {
+  padding-top: 18px;
+}
+.projectRow .imgCol {
+  display: flex;
+  justify-content: flex-end;
 }
