@@ -1,0 +1,31 @@
+.hero {
+  &-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  &-logo {
+    svg {
+      max-width: 380px;
+      width: 100%;
+    }
+  }
+  &-wrap {
+    display: flex;
+    gap: 85px;
+    flex-wrap: wrap;
+  }
+  &-title {
+    &-1 {
+      font-weight: 200;
+      font-size: 100px;
+      margin-bottom: 14px;
+      line-height: 1;
+    }
+    &-2 {
+      font-weight: 200;
+      font-size: 48px;
+      line-height: 1;
+    }
+  }
+}
