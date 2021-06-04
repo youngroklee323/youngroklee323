@@ -5,3 +5,38 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+.gnb {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  &-wrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  &-logo {
+    height: 50px;
+  }
+  &-list ul {
+    @include reset-list;
+
+    display: flex;
+
+    .page_item a {
+      color: var(--text0);
+      text-decoration: none;
+      display: block;
+      padding: 30px 24px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000;
+    }
+  }
+}
