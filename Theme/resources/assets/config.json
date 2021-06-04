@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/app/themes/Theme",
+  "publicPath": "/wp-content/themes/sage",
   "devUrl": "http://sh.local:10010",
   "proxyUrl": "http://sh.local:3001",
   "cacheBusting": "[name]_[hash:8]",
